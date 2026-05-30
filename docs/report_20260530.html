@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>击剑赛事报名提醒 - 2026-05-30</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    padding: 16px;
+    line-height: 1.6;
+}
+.container { max-width: 900px; margin: 0 auto; }
+.header {
+    background: linear-gradient(135deg, #1a73e8 0%, #1557b0 100%);
+    color: white; padding: 24px; border-radius: 16px; margin-bottom: 20px;
+    box-shadow: 0 4px 20px rgba(26, 115, 232, 0.3);
+}
+.header h1 { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+.header .subtitle { font-size: 14px; opacity: 0.9; margin-bottom: 12px; }
+.header .stats { display: flex; gap: 16px; flex-wrap: wrap; }
+.header .stat-item { background: rgba(255,255,255,0.15); padding: 8px 16px; border-radius: 8px; font-size: 13px; }
+.header .stat-item b { font-size: 18px; display: block; }
+.summary-card {
+    background: white; padding: 20px; border-radius: 12px; margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.summary-card .level-summary { font-size: 15px; margin-bottom: 8px; }
+.summary-card .update-time { font-size: 13px; color: #999; }
+.table-wrap { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+thead { background: #f0f4ff; }
+th { padding: 12px 10px; text-align: left; font-weight: 600; color: #555; font-size: 13px; white-space: nowrap; }
+td { padding: 10px; border-top: 1px solid #f0f0f0; vertical-align: middle; }
+tr:hover td { background: #f8faff; }
+.event-name a { color: #1a73e8; text-decoration: none; font-weight: 500; }
+.event-name a:hover { text-decoration: underline; }
+.level-badge { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 12px; font-weight: 700; color: white; }
+.level-b { background: #e67e22; }
+.level-c { background: #27ae60; }
+.level-d { background: #3498db; }
+.level-none { background: #95a5a6; }
+.date-cell { font-family: "SF Mono", "Consolas", monospace; font-size: 13px; white-space: nowrap; }
+.empty-state { text-align: center; padding: 60px 20px; color: #999; }
+.empty-state .icon { font-size: 48px; margin-bottom: 16px; }
+.footer { text-align: center; padding: 20px; color: #999; font-size: 12px; }
+
+.status-badge { display: inline-block; padding: 3px 10px; border-radius: 10px; font-size: 12px; font-weight: 600; }
+.status-not-started { background: #e8f5e9; color: #2e7d32; }
+.status-open { background: #e3f2fd; color: #1565c0; }
+.status-closed { background: #fce4ec; color: #c62828; }
+@media (max-width: 600px) {
+    body { padding: 10px; }
+    .header { padding: 16px; }
+    .header h1 { font-size: 18px; }
+    table { font-size: 13px; }
+    th, td { padding: 8px 5px; }
+    th:nth-child(4), td:nth-child(4) { display: none; }
+    th:nth-child(5), td:nth-child(5) { display: none; }
+    th:nth-child(7), td:nth-child(7) { display: none; }
+    th:nth-child(8), td:nth-child(8) { display: none; }
+    .date-cell { font-size: 12px; }
+    .level-badge { font-size: 11px; padding: 2px 7px; }
+}
+@media (max-width: 400px) {
+    th:nth-child(3), td:nth-child(3) .level-badge { display: none; }
+}
+@media (max-width: 600px) {
+    body { padding: 10px; }
+    .header { padding: 16px; }
+    .header h1 { font-size: 18px; }
+    table { font-size: 13px; }
+    th, td { padding: 8px 6px; }
+    th:nth-child(4), td:nth-child(4) { display: none; }
+    .date-cell { font-size: 12px; }
+}
+.date-warning { color: #e74c3c; font-weight: 700; }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>击剑赛事报名提醒</h1>
+<div class="subtitle">2026-05-30 生成 · 未来 7 天内开始报名的 B/C/D 级赛事</div>
+<div class="stats">
+<div class="stat-item"><b>5</b> 个赛事</div>
+<div class="stat-item"><b>1</b> B级</div>
+<div class="stat-item"><b>1</b> C级</div>
+<div class="stat-item"><b>3</b> D级</div>
+</div></div>
+<div class="summary-card">
+<div class="level-summary"><b>B</b>: 1个 | <b>C</b>: 1个 | <b>D</b>: 3个</div>
+<div class="update-time">数据来源: yy-sport.com.cn 官方赛事列表 · 每日更新</div>
+</div>
+<div class="table-wrap"><table><thead><tr><th>#</th><th>赛事名称</th><th>级别</th><th>类型</th><th>地点</th><th>比赛时间</th><th>报名开始</th><th>报名截止</th><th>状态</th></tr></thead><tbody><tr><td>1</td><td class="event-name">2026年“艾鲁特杯”无锡击剑公开赛</td><td><span class="level-badge level-c">C (C级赛)</span></td><td>认证赛事</td><td>江苏•无锡市</td><td>2026.06.27 ~ 06.28</td><td class="date-cell">2026-06-01 16:00</td><td class="date-cell">2026-06-21 23:59</td><td><span class="status-badge status-not-started">未开始</span></td></tr><tr><td>2</td><td class="event-name">2026年广西击剑公开赛</td><td><span class="level-badge level-b">B (B级赛)</span></td><td>认证赛事</td><td>广西•南宁市</td><td>2026.07.04 ~ 07.06</td><td class="date-cell date-warning">2026-06-01 08:00</td><td class="date-cell">2026-06-26 23:59</td><td><span class="status-badge status-not-started">未开始</span></td></tr><tr><td>3</td><td class="event-name">2026年九江“庐山杯”击剑公开赛</td><td><span class="level-badge level-d">D (D级赛)</span></td><td>认证赛事</td><td>江西•九江市</td><td>2026.07.04 ~ 07.05</td><td class="date-cell date-warning">2026-06-01 08:00</td><td class="date-cell">2026-06-29 23:59</td><td><span class="status-badge status-not-started">未开始</span></td></tr><tr><td>4</td><td class="event-name">2026年“天魄杯”沧州击剑公开赛</td><td><span class="level-badge level-d">D (D级赛)</span></td><td>认证赛事</td><td>河北•沧州市</td><td>2026.07.11 ~ 07.12</td><td class="date-cell date-warning">2026-06-01 08:00</td><td class="date-cell">2026-06-30 23:59</td><td><span class="status-badge status-not-started">未开始</span></td></tr><tr><td>5</td><td class="event-name">2026年第二届新疆维吾尔自治区乌鲁木齐击剑公开赛</td><td><span class="level-badge level-d">D (D级赛)</span></td><td>认证赛事</td><td>新疆•乌鲁木齐市</td><td>2026.07.11 ~ 07.12</td><td class="date-cell date-warning">2026-06-01 08:00</td><td class="date-cell">2026-07-01 23:59</td><td><span class="status-badge status-not-started">未开始</span></td></tr></tbody></table></div>
+<div class="footer">Generated by Fencing Registration System &middot; 2026-05-30 09:55</div>
+</div></body></html>
